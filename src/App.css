@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;500&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f6f6f7;
+  font-family: "Encode Sans", sans-serif;
+}
+.custom-container {
+  display: grid;
+  grid-template-rows: repeat(3, 200px);
+  align-items: center;
+  height: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header h1 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #363545;
+}
+
+.header ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin: 0;
+}
+.header ul li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.header h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #23292b;
+  margin: 0;
+}
+
+.card-info {
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 16px;
+  display: grid;
+}
+.pagination {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #024e74;
+  font-size: 16px;
+  border: none;
+  border-radius: none;
+}
+
+input[type="radio"] {
+  accent-color: #024e74;
+}

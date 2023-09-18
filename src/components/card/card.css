@@ -1,0 +1,27 @@
+.card-pokemon {
+  width: 315.8px;
+  height: 104px;
+  background-color: #fff;
+  border: solid #e3e1e5 1px;
+  border-radius: 1rem;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card-pokemon img {
+  width: 72px;
+  height: 72px;
+}
+.card-pokemon h2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #23292b;
+  background-color: white;
+}
+
+.rounded-circle {
+  background-color: #f6f6f7;
+  border-radius: 50%;
+}
